@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 
 public class GenericResourceBundle {
 	public static String getProperties(String source){
-		ResourceBundle rb = ResourceBundle.getBundle("ResourceBundle");
+		ResourceBundle rb = ResourceBundle.getBundle("ResourceBundle key");
 		Enumeration <String> keys = rb.getKeys();
 		String value="";
 		while (keys.hasMoreElements()) {
